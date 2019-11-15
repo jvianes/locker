@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Locker from './components/Locker';
 //import 'semantic-ui-css/semantic.min.css';
 import 'semantic-ui-css-offline';
-import { Grid, Icon, Transition, Reveal, Modal, Image } from 'semantic-ui-react';
+import { Grid, Icon, Modal, Image } from 'semantic-ui-react';
 
 class App extends React.Component {
 
@@ -20,7 +19,6 @@ class App extends React.Component {
 			return r.json();
 		})
 		.then((j) => {
-			const lockers = j.codes;
 			this.setState({ lockers: j.codes, locks: Array(j.codes.length) });
 		});
 	}

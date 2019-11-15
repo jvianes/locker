@@ -1,6 +1,5 @@
 import React from 'react';
-import Digit from './Digit';
-import { Dropdown, Menu, Icon, Grid, Input } from 'semantic-ui-react';
+import { Dropdown, Icon, Grid, Input } from 'semantic-ui-react';
 
 const colorOptions = [
 	{ key: 1, text: 'Red', value: 1, color: 'red' },
