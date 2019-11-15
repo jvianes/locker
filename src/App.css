@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+div p {
+	font-size: large; 
+}
+.ui.header {
+	font-size: xx-large;
+}
+div footer {
+	font-size: x-large;
+}
