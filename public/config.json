@@ -1,0 +1,24 @@
+{
+	"codes": [ {
+		"color": "yellow",
+	        "type": "colors",
+	        "digits": 5,
+	        "code": [1, 2, 3, 1, 2]
+}, {
+        "color": "blue",
+        "type": "digits",
+        "digits": 4,
+        "code": [1, 2, 3, 4]
+}, {
+        "color": "olive",
+        "type": "digits",
+        "digits": 3,
+        "code": [1, 2, 3]
+}, {
+        "color": "grey",
+        "type": "pass",
+        "digits": 2,
+        "code": ["toto", "titi"]
+} ]
+
+}
