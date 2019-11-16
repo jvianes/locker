@@ -6,28 +6,6 @@ import 'semantic-ui-css-offline';
 import { Grid, Icon, Modal, Header, Image, Button } from 'semantic-ui-react';
 import recette_hamburger from './images/recette_hamburger.jpg';
 
-const lockers = [ {
-	color: 'blue',
-        type: 'digits',
-        digits: 4,
-        code: [7, 1, 9, 2]
-}, {
-        color: 'red',
-        type: 'digits',
-	digits: 4,
-        code: [3, 8, 7, 6]
-}, {
-        color: 'black',
-        type: 'pass',
-        digits: 3,
-        code: ['super', 'vous', 'chauffez']
-}, {
-        color: 'violet',
-        type: 'digits',
-        digits: 3,
-        code: [1, 5, 5]
-} ]
-
 class App extends React.Component {
 
 	constructor(props) {
