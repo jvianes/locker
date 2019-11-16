@@ -4,6 +4,7 @@ import Locker from './components/Locker';
 //import 'semantic-ui-css/semantic.min.css';
 import 'semantic-ui-css-offline';
 import { Grid, Icon, Modal, Header, Image, Button } from 'semantic-ui-react';
+import recette_hamburger from './images/recette_hamburger.jpg';
 
 const lockers = [ {
 	color: 'blue',
@@ -98,7 +99,7 @@ class App extends React.Component {
           { !locked && <Modal trigger={<Icon name='unlock' color='green' size='large' link/>}>
 			  <Modal.Header>Félicitation !</Modal.Header>
 			  <Modal.Content image>
-			  	<Image wrapped size='medium' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />
+			  	<Image wrapped size='huge' src={recette_hamburger}/>
 			  </Modal.Content>
 		</Modal> }
 	    </Grid.Column>
