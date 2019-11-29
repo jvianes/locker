@@ -84,7 +84,7 @@ class App extends React.Component {
 	  </Grid.Row>
 	  {lockers && lockers.map((l, i) => 
 	  <Grid.Row color={ l.color } columns={6}>
-		  <Locker digits={ l.digits } type={ l.type } code={ l.code } onlockchanged={this.handleLock(i)}/>
+		  <Locker digits={ l.digits } type={ l.type } code={ l.code } sha512_code={ l.sha512_code } onlockchanged={this.handleLock(i)}/>
 	  </Grid.Row>)
 	  }
         </Grid>

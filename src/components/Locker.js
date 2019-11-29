@@ -1,5 +1,6 @@
 import React from 'react';
 import { Dropdown, Icon, Grid, Input } from 'semantic-ui-react';
+import { sha512 } from 'js-sha512';
 
 const colorOptions = [
 	{ key: 1, text: 'Red', value: 1, color: 'red' },
@@ -33,9 +34,17 @@ class Locker extends React.Component {
 			var { digits } = this.state;
 			digits[i] = v.value;
 			this.setState({ digits });
-			const { code } = this.props;
+			const { code, sha512_code } = this.props;
 			
-			const locked = !digits.reduce((acc, d, i) => acc && (d === code[i]), true);
+			let locked = true;
+			if (sha512_code) {
+				const to_hash = digits.map((v) => (v ? v : '').toString()).join('');
+				const sha512ed = sha512(to_hash);
+				locked = sha512_code !== sha512ed;
+			}
+			else {
+				locked = !digits.reduce((acc, d, i) => acc && (d === code[i]), true);
+			}
 			this.setState({ locked });
 			this.props.onlockchanged(!locked);
 		}
