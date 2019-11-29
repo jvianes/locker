@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/locker/static/css/main.60f314f5.chunk.css",
+    "main.js": "/locker/static/js/main.870abc79.chunk.js",
+    "main.js.map": "/locker/static/js/main.870abc79.chunk.js.map",
+    "runtime-main.js": "/locker/static/js/runtime-main.3bf580b3.js",
+    "runtime-main.js.map": "/locker/static/js/runtime-main.3bf580b3.js.map",
+    "static/css/2.6ec366ff.chunk.css": "/locker/static/css/2.6ec366ff.chunk.css",
+    "static/js/2.3161cff6.chunk.js": "/locker/static/js/2.3161cff6.chunk.js",
+    "static/js/2.3161cff6.chunk.js.map": "/locker/static/js/2.3161cff6.chunk.js.map",
+    "index.html": "/locker/index.html",
+    "precache-manifest.7026a4751c5b736277924d239abfe1e8.js": "/locker/precache-manifest.7026a4751c5b736277924d239abfe1e8.js",
+    "service-worker.js": "/locker/service-worker.js",
+    "static/css/2.6ec366ff.chunk.css.map": "/locker/static/css/2.6ec366ff.chunk.css.map",
+    "static/css/main.60f314f5.chunk.css.map": "/locker/static/css/main.60f314f5.chunk.css.map",
+    "static/media/semantic.min.css": "/locker/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/recette_hamburger.jpg": "/locker/static/media/recette_hamburger.1f76eb9e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bf580b3.js",
+    "static/css/2.6ec366ff.chunk.css",
+    "static/js/2.3161cff6.chunk.js",
+    "static/css/main.60f314f5.chunk.css",
+    "static/js/main.870abc79.chunk.js"
+  ]
+}

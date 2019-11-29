@@ -1,0 +1,23 @@
+{
+	"codes": [ {
+		"color": "blue",
+	        "type": "digits",
+	        "digits": 4,
+                "sha512_code": "932e9591abd7403c0036c4729af5fc491c076f4121d77ff8af8ef7f1b9ed6f5319de531a87ae61120cb832e7b4788a8d71b42665acce9640ddb0d6b9296a41a4"
+        }, {
+                "color": "red",
+                "type": "digits",
+                "digits": 4,
+                "sha512_code": "a0480ad0c40b27c5f0ee7e34a60206bfae85cab3ed6b81eb24a747d16133f671a428811bef19c41085eacc4f4baadbe108e698aa8e4beb08a0665165bfdb1d20"
+        }, {
+                "color": "black",
+                "type": "pass",
+                "digits": 3,
+                "sha512_code": "b0888750750713d886fa839501f0eff2f8b3adfff28392190086c140663574a0f3cbcb26e7c4c7365938c0b6308a96f02a860c0b43c9998b7a34e8c24548a7e1"
+        }, {
+                "color": "violet",
+                "type": "digits",
+                "digits": 3,
+                "sha512_code": "0aae04a2ba47c629332328c83d8a90ef443da6199bd76fa3b188b8654de8376e469c44f6986dbf7853d2e532efb04127dba65d072a4bb3aea6c4129044f5b00"
+        } ]
+}
