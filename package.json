@@ -7,7 +7,7 @@
     "js-sha512": "^0.8.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-css-offline": "^1.0.4-2.4.2",
     "semantic-ui-react": "^0.88.1"
